@@ -3,6 +3,7 @@
   padding: 0px;
   font-family: sans-serif;
   box-sizing: border-box;
+  flex-wrap: wrap;
 }
 body{
   color:white;
@@ -23,7 +24,8 @@ body{
 .nav-link {
   color: yellow;
   flex-shrink: unset;
- 
+  font-size: x-large;
+
 }
 .nav-link:hover {
   background-color: black;
@@ -64,7 +66,7 @@ body{
   25%{color:rgba(7, 169, 42, 0.79)}
 }
 .img_text {
-  text-align: center;
+  /* text-align: center; */
   position: absolute;
   top: 50%;
   left: 50%;
@@ -103,25 +105,12 @@ body{
   /* position: absolute; */
 }
   /* mob */
-      @media (max-width: 600px) {
+      @media (max-width: 300px) and (max-width: 600px){
         .nav-link{
-          
-          background-color: rgb(39, 14, 121);
+           background-color:rosybrown;
         }
-       
-      }
+}
 
-      /* tab */
-      @media (min-width: 600px) and (max-width: 1024px) {
-        
-        h1{
-            background-color: aqua;
-        }
-      }
+     
 
-      /* lap */
-      @media (min-width: 1024px) and (orientation: landscape) {
-        body {
-          background-color: blue;
-        }
-      }
+
