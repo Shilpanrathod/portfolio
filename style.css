@@ -9,17 +9,11 @@ body{
   color:white;
   
 }
-
-  /* nav ul li{
+ nav ul li{
   display: inline-block;
   margin: 10px 20px; 
-}  */
- nav ul li{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+}  
 
-} 
 
 .nav-link {
   color: yellow;
@@ -104,13 +98,7 @@ body{
   background-position:center;
   /* position: absolute; */
 }
-  /* mob */
-      @media (max-width: 300px) and (max-width: 600px){
-        .nav-link{
-           background-color:rosybrown;
-        }
-}
-
+  
      
 
 
