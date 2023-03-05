@@ -6,6 +6,7 @@
 }
 body{
   color:white;
+  
 }
 
   /* nav ul li{
@@ -16,12 +17,13 @@ body{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+
 } 
 
 .nav-link {
   color: yellow;
-  font-size:xx-large;
-
+  flex-shrink: unset;
+ 
 }
 .nav-link:hover {
   background-color: black;
@@ -100,3 +102,26 @@ body{
   background-position:center;
   /* position: absolute; */
 }
+  /* mob */
+      @media (max-width: 600px) {
+        .nav-link{
+          
+          background-color: rgb(39, 14, 121);
+        }
+       
+      }
+
+      /* tab */
+      @media (min-width: 600px) and (max-width: 1024px) {
+        
+        h1{
+            background-color: aqua;
+        }
+      }
+
+      /* lap */
+      @media (min-width: 1024px) and (orientation: landscape) {
+        body {
+          background-color: blue;
+        }
+      }
